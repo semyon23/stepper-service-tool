@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# виртуальное окружение (python3 -m venv .venv)
+.venv/
+venv/
+
+# pytest
+.pytest_cache/
+
+# IDE: CLion / PyCharm / VS Code
+.idea/
+.vscode/
+
+# файлы прошивки — их место в репозитории прошивки
+*.bin
+*.hex
+
+# записи графика (Save CSV…)
+axes_*.csv
+
+# системное
+.DS_Store
+Thumbs.db
